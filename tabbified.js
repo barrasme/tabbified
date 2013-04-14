@@ -19,7 +19,7 @@
 					$(this).attr('id',baseID+'Block' + i).hide().addClass(baseID+'Block');
 					$('div.'+baseID+'Block',obj).first().show();
 				});
-				$('a',obj).on('click',function(i){
+				$('a.'+baseID+'Btn',obj).on('click',function(i){
 					var ID = $(this).attr('id');
 					ID = ID.replace('Btn','Block');
 					$('div.'+baseID+'Block').hide();
