@@ -23,6 +23,7 @@ Now copy the two lines below and paste them into the header of your document. Al
 The HTML required is really simple. Check out the code below.
 The outer containing DIV needs an ID.
 This ID can be anything you'd like. Just replace "YourIDHere" with whatever you'd like.
+<pre>
 <div id="YourIDHere">
 	<div>
 		<a href="">About</a>
@@ -35,6 +36,8 @@ This ID can be anything you'd like. Just replace "YourIDHere" with whatever you'
 		<div>And more shizzle in tab three</div>
 	</div>
 </div>
+</pre>
+	
 						
 There are two DIVs inside the main container. The first contains the tabs themselves and the second contains the tabbed content.
 Or if you're feeling really lazy you could let me generate your code for you. Check out the "HTML Generator" tab
